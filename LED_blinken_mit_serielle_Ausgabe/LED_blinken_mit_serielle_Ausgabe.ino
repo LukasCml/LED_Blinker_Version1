@@ -1,3 +1,10 @@
+/*
+ *Programm:         LED blinken im Sekundentakt
+ *Letzte Änderung:  15.09.2020
+ *Programmierer:    LC
+ *Hardware:         Arduino UNO, Gruene LED, Widerstand 220 Ohm
+ */
+
 void setup()
 {
   pinMode(13, OUTPUT);
