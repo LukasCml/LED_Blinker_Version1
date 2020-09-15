@@ -5,18 +5,20 @@
  *Hardware:         Arduino UNO, Gruene LED, Widerstand 220 Ohm
  */
 
+ #define LED 12
+
 void setup()
 {
-  pinMode(13, OUTPUT);
+  pinMode(LED, OUTPUT);
   Serial.begin(9600);
 }
 
 void loop()
 {
-  digitalWrite(13, HIGH);
+  digitalWrite(LED, HIGH);
   Serial.println("LED an");
   delay(1000);
-  digitalWrite(13, LOW);
+  digitalWrite(LED, LOW);
   Serial.println("LED aus");
   delay(1000);
 
